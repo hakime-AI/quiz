@@ -6,16 +6,12 @@
   text-align: center;
 }
 
-
 body {
   display: grid;
   align-items: center;
   justify-items: center;
   min-height: 100vh;
-  background-image:
-    linear-gradient(
-    rgb(24, 53, 73), #5e4014
-    );
+  background-image: linear-gradient(rgb(24, 53, 73), #5e4014);
   color: #ffa502;
 }
 h1 {
@@ -27,7 +23,6 @@ h1 {
 }
 h2 {
   color: #f7f6f5;
- 
 }
 h3 {
   color: #ffa502;
@@ -67,9 +62,15 @@ h3 {
   font-size: 1.3rem;
   color: #ffa502;
 }
+/* -------------------------------------- */
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffa502;
+}
 
 @media all and (max-width: 678px) {
-.quiz .h1 .h2 .h3 .choices{
-  width: auto;
+  .quiz .h1 .h2 .h3 .choices {
+    width: auto;
   }
 }
